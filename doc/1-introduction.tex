@@ -13,10 +13,20 @@
     \item Which usabilites can we identify by this formalization?
     \item Is this representation simpler or more complicated to prove?
     \item Is this dissertation meant to be didatic?
+    \item How formal explaining our syntax?
+    \item Define a a typing judgment?
+    %%
+    \item Explain Mutable References?
+    \item Show studies around semantic of mutable reference and typing relations?
+    \item  
 \end{itemize}
-Type Reference is a technique of representing the types of a program in a store. Some properties of this store can be defined to verify the correctness of a given representation. Formalizing these concepts makes it more understandable, in a way which computer scientists can comunicate their ideas through a standardized set of rules.
-Why coq? Coq is a expressive functional programming language used for stating and proving logical assertions and a standard tool for researchers to reason about complex language definitions \cite{Pierce_SF1}
-
+Coq is a expressive functional programming language used for stating and proving logical assertions and a standard tool for researchers to reason about complex language definitions \cite{Pierce_SF1}
+Study the implications of bringing this new semantic.
+Can be useful for implementing new target languages
+"we wish to construct type systems with soundness proofs
+that are machine-checkable in the simplest possible logic.
+Bring a simplified typing relation, without a store typing
+By changing our term syntax to include the type information on loc a ref terms
 % \begin{figure}
 % \centering
 % \includegraphics[width=0.45\textwidth]{pictures/image01.png}
